@@ -6,7 +6,6 @@ const _ = require('lodash');
 
 exports.searchPost = async (req,res)=>{
     const params = req.query.search ;
-    console.log(params)
 
     Post.findAll({
         include :[{

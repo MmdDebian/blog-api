@@ -1,7 +1,6 @@
 {
     "http_port" : "",
     "jwt_key" : "" ,
-    "session_key" : "" ,
     "db" : {
         "username" : "" , 
         "password" : "" ,
