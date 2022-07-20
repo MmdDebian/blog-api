@@ -2,21 +2,21 @@
 
 
 ## About 
-Hello \
+Hello 
 
-APIs are built into this repository that perform token-based authentication. \
+APIs are built into this repository that perform token-based authentication.
 
-The strategy is that if the user registers, an email containing a confirmation code will be sent .\
+The strategy is that if the user registers, an email containing a confirmation code will be sent .
 
-This email is even sent for login and the user must use this email to complete the authentication process .\
+This email is even sent for login and the user must use this email to complete the authentication process .
 
-In the APIs, the user can upload his avatar file . \
+In the APIs, the user can upload his avatar file . 
 
-He can still delete it, (that file will also be deleted on the server) . \
+He can still delete it, (that file will also be deleted on the server) . 
 
 
 
-Next, there is a post api that the user can use to create their own posts, which includes the title and content, and can also add its image file. \
+Next, there is a post api that the user can use to create their own posts, which includes the title and content, and can also add its image file. 
 
 Note: Add the file as
 Multipart form data
@@ -60,6 +60,7 @@ Multipart form data
     }
 }
 
+```
 
 ### Get staretd 
 
