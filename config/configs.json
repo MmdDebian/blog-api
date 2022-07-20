@@ -1,20 +1,19 @@
 {
-    "http_port" : 3500 ,
-    "jwt_key" : "th3srt4h34st3h4srt38h4str384hstr" ,
-    "session_key" : "qwrfqhjwgefiqwebfhqwjegfjqwfwqlr3g54erg43er4g" ,
+    "http_port" :  "",
+    "jwt_key" : "" ,
+    "session_key" : "" ,
     "db" : {
-        "username" : "root" , 
-        "password" : "root" ,
-        "host" : "127.0.0.1" ,
-        "database" : "blog-api" ,
-        "port" : 3306
+        "username" : "" , 
+        "password" : "" ,
+        "host" : "" ,
+        "database" : "" ,
+        "port" : ""
     },
     "mail" : {
-        "host" : "smtp.mailtrap.io" ,
-        "port" : 2525 , 
-        "user" : "83a5a05a923204" , 
-        "pass" : "df2305849955ad"
-    }, 
-    "upload_path" : "public/uploads"
+        "host" : "" ,
+        "port" : "" , 
+        "user" : "" , 
+        "pass" : ""
+    }
 }
 

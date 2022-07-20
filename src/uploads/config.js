@@ -3,8 +3,8 @@ const mkdir = require('mkdirp');
 
 const storage  = multer.diskStorage({
     destination : function(req , file , cb){
-        mkdir(config.upload_path).then(made=>{
-            cb(null , config.upload_path);
+        mkdir('public/uploads').then(made=>{
+            cb(null , 'public/uploads');
         })
     } ,
     filename: function(req , file , cb){
