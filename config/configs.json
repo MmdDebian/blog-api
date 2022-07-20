@@ -1,5 +1,5 @@
 {
-    "http_port" :  "",
+    "http_port" : "",
     "jwt_key" : "" ,
     "session_key" : "" ,
     "db" : {
@@ -11,7 +11,7 @@
     },
     "mail" : {
         "host" : "" ,
-        "port" : "" , 
+        "port" : "", 
         "user" : "" , 
         "pass" : ""
     }
