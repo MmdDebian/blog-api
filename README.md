@@ -122,7 +122,7 @@ GET /api/user/post  response : user posts
 
 GET /api/user/post/:id  response : get post by id
 
-POST /api/user/post  : create post (Note:Use multipart/formdata to add the file)
+POST /api/user/post  : create post {title,content,img} (Note:Use multipart/formdata to add the file)
 
 PUT /api/user/post/:id : update post 
 
