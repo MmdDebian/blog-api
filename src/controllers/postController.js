@@ -3,7 +3,6 @@ const User = require('../models/User');
 const { Op } = require('sequelize');
 const _ = require('lodash');
 
-
 exports.searchPost = async (req,res)=>{
     const params = req.query.search ;
 

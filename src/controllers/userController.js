@@ -7,7 +7,6 @@ const fs = require('fs');
 User.hasMany(Post)
 Post.belongsTo(User);
 
-
 exports.index = async (req,res)=>{
     response({
         res ,
