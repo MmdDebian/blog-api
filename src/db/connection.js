@@ -1,6 +1,5 @@
 const { Sequelize  } = require('sequelize') ;
 
-
 const sequelize = new Sequelize(
     config.db.database , 
     config.db.username, 
@@ -18,6 +17,5 @@ const sequelize = new Sequelize(
         }
     } ,
 )
-
 
 module.exports = sequelize ;
