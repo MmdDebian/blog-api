@@ -62,7 +62,7 @@ Multipart form data
 
 ```
 
-### Get staretd 
+### Get started 
 
 ```
 npm install 
