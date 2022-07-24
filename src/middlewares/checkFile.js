@@ -12,7 +12,7 @@ function isCheckedFile(req,res,next){
 
     if(!fileExtension.includes(path.extname(file.filename))){
 
-        const filePath = `${process.cwd()}/${config.upload_path}/${file.filename}`
+        const filePath = `${process.cwd()}/public/uploads/${file.filename}`
 
         fs.unlink(filePath , (err)=>{
             return response({
